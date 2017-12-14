@@ -1,22 +1,23 @@
 {
   "name": "@undistraction/gatsby-starter-skeleton-placeholder-mod-1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/Undistraction/gatsby-starter-skeleton-placeholder-mod-1.git"
+    "url": "git+https://github.com/Undistraction/gatsby-starter-skeleton-placeholder-mod-1.git"
   },
-  "files": ["dist", "src", "lib"],
+  "files": [
+    "dist",
+    "src",
+    "lib"
+  ],
   "keywords": [],
   "author": "#{project.author.name}",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/Undistraction/gatsby-starter-skeleton-placeholder-mod-1/issues"
+    "url": "https://github.com/Undistraction/gatsby-starter-skeleton-placeholder-mod-1/issues"
   },
-  "homepage":
-    "https://github.com/Undistraction/gatsby-starter-skeleton-placeholder-mod-1",
+  "homepage": "https://github.com/Undistraction/gatsby-starter-skeleton-placeholder-mod-1",
   "scripts": {
     "build": "npm run build:dist",
     "prebuild": "npm run lint",
