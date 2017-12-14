@@ -13,9 +13,6 @@ export default {
   },
   plugins: [
     nodeResolve(),
-    replace({
-      'process.env.NODE_ENV': JSON.stringify('production'),
-    }),
     babel({
       babelrc: false,
       exclude: 'node_modules/**',
@@ -36,5 +33,8 @@ export default {
     }),
     // Allow CommonJS modules to be included in build.
     commonjs(),
+    replace({
+      'process.env.NODE_ENV': JSON.stringify('production'),
+    }),
   ],
 };
